@@ -1,0 +1,806 @@
+[ 2016-11-17T15:19:22+08:00 ] ::1 /tpweb/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+SQL: SELECT 
+    	*
+        FROM 
+    	 user
+    	WHERE 
+    	user_id = 1
+    	LIMIT 1 
+    	 [ RunTime:0.0005s ]
+
+[ 2016-11-17T15:22:09+08:00 ] ::1 /tpweb/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on=1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0002s ]
+
+[ 2016-11-17T15:24:17+08:00 ] ::1 /tpweb/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on=1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0007s ]
+
+[ 2016-11-17T15:45:10+08:00 ] ::1 /tpweb/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\tpweb\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+ERR: 1103:Incorrect table name ''
+ [ SQL语句 ] : INSERT INTO `` () VALUES ()
+ERR: 1103:Incorrect table name ''
+ [ SQL语句 ] : INSERT INTO `` () VALUES ()
+
+[ 2016-11-17T15:45:38+08:00 ] ::1 /tpweb/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0002s ]
+ERR: 1103:Incorrect table name ''
+ [ SQL语句 ] : INSERT INTO `` (`user_account`,`user_name`) VALUES ('lyx','刘元翔')
+ERR: 1103:Incorrect table name ''
+ [ SQL语句 ] : INSERT INTO `` (`user_account`,`user_name`) VALUES ('lyx','刘元翔')
+
+[ 2016-11-17T15:46:20+08:00 ] ::1 /tpweb/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0002s ]
+NOTIC: [4096] Object of class Home\Model\Web\UserModel could not be converted to string C:\xampp\htdocs\tpweb\Application\Home\Model\Web\UserModel.class.php 第 24 行.
+NOTIC: [8] Object of class Home\Model\Web\UserModel to string conversion C:\xampp\htdocs\tpweb\Application\Home\Model\Web\UserModel.class.php 第 24 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\tpweb\Application\Home\Model\Web\UserModel.class.php 第 24 行.
+
+[ 2016-11-17T15:46:32+08:00 ] ::1 /tpweb/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0002s ]
+
+[ 2016-11-17T15:46:48+08:00 ] ::1 /tpweb/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0002s ]
+
+[ 2016-11-17T15:47:07+08:00 ] ::1 /tpweb/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0002s ]
+ERR: 1103:Incorrect table name ''
+ [ SQL语句 ] : INSERT INTO `` (`user_account`,`user_name`) VALUES ('lyx','刘元翔')
+ERR: 1103:Incorrect table name ''
+ [ SQL语句 ] : INSERT INTO `` (`user_account`,`user_name`) VALUES ('lyx','刘元翔')
+
+[ 2016-11-17T15:49:41+08:00 ] ::1 /tpweb/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: INSERT INTO `user` (`user_account`,`user_name`) VALUES ('lyx','刘元翔') [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-11-17T15:51:26+08:00 ] ::1 /tpweb/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: INSERT INTO `user` (`user_account`,`user_name`) VALUES ('lx','凌翔') [ RunTime:0.0062s ]
+NOTIC: [8] Undefined index: HTTP_REFERER C:\xampp\htdocs\tpweb\ThinkPHP\Library\Think\Controller.class.php 第 283 行.
+ERR: 模板不存在:./Application/Home/View/Public/dispatch_jump.html
+
+[ 2016-11-17T15:58:52+08:00 ] ::1 /tpweb/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0026s ]
+SQL: INSERT INTO `user` (`user_account`,`user_name`) VALUES ('sj','周树杰') [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2016-11-17T16:44:13+08:00 ] ::1 /tpweb/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: INSERT INTO `user` (`user_account`,`user_name`) VALUES ('wt','徐文婷') [ RunTime:0.0020s ]
+
+[ 2016-11-17T16:53:48+08:00 ] ::1 /tpweb/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: INSERT INTO `user` (`user_account`,`user_name`) VALUES ('kzj','柯志杰') [ RunTime:0.0020s ]
+
+[ 2016-11-17T17:05:17+08:00 ] ::1 /tpweb/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: INSERT INTO `user` (`user_account`,`user_name`) VALUES ('jxj','季小杰') [ RunTime:0.0019s ]
+
+[ 2016-11-17T17:09:29+08:00 ] ::1 /tpweb/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002456s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+ERR: 1054:Unknown column 'user_accoun' in 'field list'
+ [ SQL语句 ] : INSERT INTO `user` (`user_account`,`user_accoun`,`user_name`) VALUES ('jxj','jxj','季小杰')
+ERR: 1054:Unknown column 'user_accoun' in 'field list'
+ [ SQL语句 ] : INSERT INTO `user` (`user_account`,`user_accoun`,`user_name`) VALUES ('jxj','jxj','季小杰')
+
+[ 2016-11-17T17:57:29+08:00 ] ::1 /tpweb/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-11-17T18:00:33+08:00 ] ::1 /tpweb/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-11-17T18:00:40+08:00 ] ::1 /tpweb/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-11-17T18:00:41+08:00 ] ::1 /tpweb/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2016-11-17T18:00:41+08:00 ] ::1 /tpweb/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-11-17T18:00:48+08:00 ] ::1 /tpweb/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2016-11-17T18:04:55+08:00 ] ::1 /tpweb/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-11-17T18:04:56+08:00 ] ::1 /tpweb/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2016-11-17T18:04:56+08:00 ] ::1 /tpweb/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2016-11-17T18:04:56+08:00 ] ::1 /tpweb/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-11-17T18:05:04+08:00 ] ::1 /tpweb/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-11-17T18:05:05+08:00 ] ::1 /tpweb/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2016-11-17T18:05:05+08:00 ] ::1 /tpweb/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2016-11-17T18:05:06+08:00 ] ::1 /tpweb/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2016-11-17T18:05:06+08:00 ] ::1 /tpweb/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2016-11-17T18:05:06+08:00 ] ::1 /tpweb/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2016-11-17T18:07:27+08:00 ] ::1 /tpweb/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2016-11-17T18:07:27+08:00 ] ::1 /tpweb/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2016-11-17T18:07:57+08:00 ] ::1 /tpweb/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2016-11-17T18:07:58+08:00 ] ::1 /tpweb/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SELECT 
+    	user_id,
+        user_name
+        FROM 
+    	 user
+    	WHERE 
+    	is_on = 1  and user_id = 1
+
+    	LIMIT 1 
+    	 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-11-17T18:08:52+08:00 ] ::1 /tpweb/login/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+NOTIC: [8] Array to string conversion C:\xampp\htdocs\tpweb\Application\Home\Controller\LoginController.class.php 第 31 行.
+
+[ 2016-11-17T18:09:19+08:00 ] ::1 /tpweb/login/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+NOTIC: [8] Array to string conversion C:\xampp\htdocs\tpweb\Application\Home\Controller\LoginController.class.php 第 31 行.
+
+[ 2016-11-17T18:10:15+08:00 ] ::1 /tpweb/login/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+
+[ 2016-11-17T18:11:00+08:00 ] ::1 /tpweb/login/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-11-17T18:23:55+08:00 ] ::1 /tpweb/login/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+
+[ 2016-11-17T18:25:28+08:00 ] ::1 /tpweb/login/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+ERR: Think\Controller:validate方法不存在！
+
+[ 2016-11-17T18:26:07+08:00 ] ::1 /tpweb/login/login?id=1&user_name=%E6%88%90%E9%82%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+
